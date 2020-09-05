@@ -33,7 +33,6 @@ As the idea for this project came in a few days after the GE2020 was announced, 
 
 I wrote a python script that uses the Twitter API to retrieve each account's follower count and I set it to run at 11pm daily. This is a time set by me to ensure that I am comparing a consistent timeframe across the days. After the count is retrieved, I would then automatically save it into a csv file. The table below shows the data collected with this method over 13 days
 
-[Follower Count Data](https://www.notion.so/cfc5ced07bea4b1698dcb4c47d472ed4)
 
 ## 3 Analysis of Data
 
@@ -48,7 +47,7 @@ df = pd.read_csv('follower_count.csv')
 df.describe()
 ```
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/Screenshot_2020-07-31_at_11.11.43_PM.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/Screenshot_2020-07-31_at_11.11.43_PM.png)
+![images/describe_results.png](images/describe_results.png)
 
 Figure 1: Statistics obtained with describe() function
 
@@ -62,7 +61,7 @@ Most of the statistics given in Figure 1 are not useful in this context but we c
 
 ---
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/max_change_followers.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/max_change_followers.png)
+![images/max_change_followers.png](images/max_change_followers.png)
 
 Figure 2: Maximum Change in followers for all 8 parties
 
@@ -72,9 +71,9 @@ From this bar chart, we can see that that the results are aligned with the stand
 
 The over-arching trend for all parties is that it increases over time and most see a gradual increase at the start while a steep increase can be observed in the later part. 
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/daily_trend_1.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/daily_trend_1.png)
+![images/daily_trend_1.png](images/daily_trend_1.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/daily_trend_2.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/daily_trend_2.png)
+![images/daily_trend_2.png](images/daily_trend_2.png)
 
 ### Comparing between across parties for each day
 
@@ -90,33 +89,33 @@ Trend 5: Highest for all on 11 July — results of elections announced early mor
 
 Trend 6: 2nd highest on 10 July — polling day?
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/0_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/0_daily_change.png)
+![images/0_daily_change.png](images/0_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/3_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/3_daily_change.png)
+![images/3_daily_change.png](images/3_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/6_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/6_daily_change.png)
+![images/6_daily_change.png](images/6_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/9_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/9_daily_change.png)
+![images/9_daily_change.png](images/9_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/1_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/1_daily_change.png)
+![images/1_daily_change.png](images/1_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/4_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/4_daily_change.png)
+![images/4_daily_change.png](images/4_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/7_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/7_daily_change.png)
+![images/7_daily_change.png](images/7_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/10_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/10_daily_change.png)
+![images/10_daily_change.png](images/10_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/2_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/2_daily_change.png)
+![images/2_daily_change.png](images/2_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/5_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/5_daily_change.png)
+![images/5_daily_change.png](images/5_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/8_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/8_daily_change.png)
+![images/8_daily_change.png](images/8_daily_change.png)
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/11_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/11_daily_change.png)
+![images/11_daily_change.png](images/11_daily_change.png)
 
 ### Comparing between days for each party
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/PAP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/PAP_daily_change.png)
+![images/PAP_daily_change.png](images/PAP_daily_change.png)
 
 **Analysis for PAP**
 
@@ -138,11 +137,11 @@ Highest: 1407
 
 Lowest: 39
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/WP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/WP_daily_change.png)
+![images/WP_daily_change.png](images/WP_daily_change.png)
 
 ---
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/SDP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/SDP_daily_change.png)
+![images/SDP_daily_change.png](images/SDP_daily_change.png)
 
 **Analysis for SDP**
 
@@ -162,11 +161,11 @@ Highest: 3
 
 Lowest: -3
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/NSP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/NSP_daily_change.png)
+![images/NSP_daily_change.png](images/NSP_daily_change.png)
 
 ---
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/RP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/RP_daily_change.png)
+![images/RP_daily_change.png](images/RP_daily_change.png)
 
 **Analysis for RP**
 
@@ -178,11 +177,11 @@ Analysis for SPP
 
 Same downward trend towards 8th July where it increased after peaking on 11 July at 14 increase. 
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/SPP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/SPP_daily_change.png)
+![images/SPP_daily_change.png](images/SPP_daily_change.png)
 
 ---
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/PSP_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/PSP_daily_change.png)
+![images/PSP_daily_change.png](images/PSP_daily_change.png)
 
 Analysis for PSP
 
@@ -194,10 +193,5 @@ Analysis for RDU
 
 Same downward trend towards 8th July where it increased after peaking on 11 July at 9 July
 
-![Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/RDU_daily_change.png](Follower%20Count%20Analysis%20f160cf9a395540c0ad43f8316f78e31b/RDU_daily_change.png)
+![images/RDU_daily_change.png](images/RDU_daily_change.png)
 
----
-
-[GE2020 Incidents](https://www.notion.so/943f65787f154cf5a3c1d0f3bf1b0e77)
-
----
